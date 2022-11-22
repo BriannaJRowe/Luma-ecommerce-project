@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run wdio.conf.js --spec ./test/specs/example.e2e.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brianna Rowe",
   "license": "ISC",
   "dependencies": {
     "webdriverio": "^7.26.0"
